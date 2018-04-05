@@ -1,0 +1,29 @@
+/*main*/
+.contact-section{
+    width: 50%;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.contact-form{
+    height: 500px;
+    width:100%;
+    border:none;
+    
+}
+.map{
+    width: 400px;
+    height: 325px;
+    border: none;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+.address{
+    color: orange;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-shadow: 2px 2px 10px yellow;
+}
+/*/main*/

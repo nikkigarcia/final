@@ -1,0 +1,191 @@
+/*Resets*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/*/Resets*/
+
+/*helper classes*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centered{
+    margin: 0 auto;
+}
+/*/helper classes*/
+
+/*nav bar*/
+.logo{
+    height: 75px;
+    float: left;
+    background-color: black;
+    border-radius: 35px;
+    animation-name: whoo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whoo{
+  5%{
+    margin-left: 10em;
+    transform: rotate(30deg);
+  }
+  15%{
+    margin-left: 15em;
+      transform: rotate(60deg);
+  }
+  25%{
+      margin-left: 20em;
+      transform: rotate(80deg);
+    }
+  65%{
+    margin-left: 30em;
+    transform: rotate(60deg);
+  }
+  }
+
+.nav-links{
+    list-style-type: none;
+    float: right;
+}
+
+.nav-links{
+    margin-top: 24px;
+}
+.nav-links li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav{
+    background-color: black;
+}
+.link{
+    color: yellow;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color: yellow;
+    color:black;
+    padding: 5px 10px;
+}
+.link.active{
+    background-color: yellow;
+    color:black;
+}
+/* /navbar*/
+
+
+.hero{
+    width:100%;
+    background-image: url(../img/yyarn.jpg);
+    text-shadow: 2px 2px 10px white;
+    text-align: center;
+    display: inline-block;
+    font-size: 200%;
+    background-repeat: repeat;
+    font-family: 'Lobster', cursive;
+}
+
+/*/hero*/
+/*main*/
+
+
+.inventory{
+    width: 180px;
+    height: 300px;
+    float: left;
+    background-color: lightgray;
+    color: black;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: lightgray;
+    
+}
+
+.scarf, .beanie, .blanket, .pocahontas, .wbeanie{
+    height: 300px;
+    width: 215px;
+    float: right;
+    display: inline-block;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.cost{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 2px 2px 2px yellow;
+    margin-left: 5px;
+}
+
+
+/*/main*/
+
+
+/*footer*/
+.box{
+    height: 150px;
+    width: 33%;
+    background-color: black;
+    float: left;
+}
+.one, .three{
+    height: 150px;
+    text-align: center;
+    font-size: x-large;
+    color: yellow;
+    margin: 0 auto;
+}
+
+.fb{
+    font-size: 40px;
+    color: yellow;
+    display: inline-block;
+}   
+
+.twitter{
+    text-align: center;
+    position: relative;
+}
+.facebook{
+    text-align: center;
+}
+
+.snap{
+    padding-left: 150px;
+    display: block;
+}
+
+.insta{
+    padding-right: 150px;
+    display: block;
+}
+.icon{
+    display: block;
+}
+.flogo{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+/*/footer*/

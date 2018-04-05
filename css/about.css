@@ -1,0 +1,35 @@
+/*main*/
+.wrapper{
+    height: 700px;
+    float: left;
+}
+
+.wrapper:first-child{
+    width: 40%;
+    background-color: lightgray;
+}
+.wrapper:last-child{
+    width: 60%;
+    background-color: lightgray;
+}
+.tab{
+    padding-left: 20px;
+}
+
+.about{
+    text-align: center;
+}
+.selfie{
+    width:400px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.about-title{
+    font-size: 200%;
+    margin-top: 75px;
+    font-family: 'Pacifico', cursive;
+}
+/*/main*/
